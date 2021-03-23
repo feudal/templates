@@ -1,5 +1,11 @@
-body {
+.site {
 	background-color: #FCFCFC;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.my_containter {
+	flex: 1;
 }
 .row {
 	margin: 20px;
